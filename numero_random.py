@@ -24,9 +24,11 @@ try:
 
     if contador==0:
         print(nombre," eres un perdedor")
+        print("El número era: ", random)
 
     if num == random:
         print("¡Bien hecho, ", nombre, "!")
+        print("Nº de intentos: ", 5-contador)
 except :
     print("Algo ha ido mal")
 
